@@ -36,9 +36,9 @@ public class AccountController {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(AccountController.class);
 	@Autowired
-	private AccountService accountService;
+	private AccountService Accountservice;
 	@Autowired
-	private TransactionFeign transactionFeign; 
+	private TransactionFeign Transactionfeign; 
 
 	
 	/**
