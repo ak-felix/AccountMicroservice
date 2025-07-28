@@ -33,9 +33,9 @@ public class AccountServiceImpl implements AccountService {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(AccountServiceImpl.class);
 	@Autowired
-	private AuthFeignClient authFeignClient;
+	private AuthFeignClient Authfeignclient;
 	@Autowired
-	private AccountRepository accountRepository;
+	private AccountRepository AccountRepository;
 	@Autowired
 	private TransactionFeign transactionFeign;
 
